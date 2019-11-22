@@ -686,31 +686,33 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\paulo.campez\\.nuget\\packages\\": {},
+    "C:\\Users\\PauloCampez\\.nuget\\packages\\": {},
+    "C:\\ProgramData\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\DarkbetConsoleApp\\DarkbetConsoleApp.csproj",
+      "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\DarkbetConsoleApp\\DarkbetConsoleApp.csproj",
       "projectName": "DarkbetConsoleApp",
-      "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\DarkbetConsoleApp\\DarkbetConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\DarkbetConsoleApp\\obj\\",
+      "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\DarkbetConsoleApp\\DarkbetConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+      "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\DarkbetConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\ProgramData\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

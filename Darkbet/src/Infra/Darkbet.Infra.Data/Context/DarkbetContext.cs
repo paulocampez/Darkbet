@@ -35,7 +35,7 @@ namespace Darkbet.Infra.Data.Context
                 .Build();
 
             // definir db
-            //optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
         }
     }
 }

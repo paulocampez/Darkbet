@@ -1,31 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {}
+    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
+    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
+        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
         "projectName": "Darkbet.Domain.Core",
-        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\obj\\",
+        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +43,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

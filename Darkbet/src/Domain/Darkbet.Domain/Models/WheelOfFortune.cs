@@ -8,7 +8,7 @@ namespace Darkbet.Domain.Models
 {
     public class WheelOfFortune : Entity
     {
-        public WheelOfFortune(Guid id, int number, string color)
+        public WheelOfFortune(Guid id, int number, WheelOfFortuneColors color)
         {
             Id = id;
             Number = number;
