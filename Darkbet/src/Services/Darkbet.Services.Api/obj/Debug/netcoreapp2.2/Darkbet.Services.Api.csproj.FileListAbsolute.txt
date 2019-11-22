@@ -15,3 +15,7 @@ C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Application.dll
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Application.pdb
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.csproj.CopyComplete
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Domain.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Domain.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb

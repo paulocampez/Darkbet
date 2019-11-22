@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using static Darkbet.Domain.Enums.WheelOfFortuneEnum;
 
 namespace Darkbet.Domain.Models
 {
@@ -11,12 +12,12 @@ namespace Darkbet.Domain.Models
         {
             Id = id;
             Number = number;
-            Color = color;
+            Color = WheelOfFortuneColors.Green;
         }
 
         //EF
         protected WheelOfFortune() { }
         public int Number { get; set; }
-        public string Color { get; set; }
+        public WheelOfFortuneColors Color { get; set; }
     }
 }

@@ -7,14 +7,40 @@
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Darkbet.Application/1.0.0": {
+        "dependencies": {
+          "Darkbet.Domain": "1.0.0"
+        },
         "runtime": {
           "Darkbet.Application.dll": {}
+        }
+      },
+      "Darkbet.Domain/1.0.0": {
+        "dependencies": {
+          "Darkbet.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Darkbet.Domain.dll": {}
+        }
+      },
+      "Darkbet.Domain.Core/1.0.0": {
+        "runtime": {
+          "Darkbet.Domain.Core.dll": {}
         }
       }
     }
   },
   "libraries": {
     "Darkbet.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Darkbet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Darkbet.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

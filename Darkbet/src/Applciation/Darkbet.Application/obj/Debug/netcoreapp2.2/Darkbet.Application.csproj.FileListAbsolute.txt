@@ -7,3 +7,8 @@ C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Appli
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\obj\Debug\netcoreapp2.2\Darkbet.Application.AssemblyInfo.cs
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\obj\Debug\netcoreapp2.2\Darkbet.Application.dll
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\obj\Debug\netcoreapp2.2\Darkbet.Application.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\bin\Debug\netcoreapp2.2\Darkbet.Domain.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\bin\Debug\netcoreapp2.2\Darkbet.Domain.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Applciation\Darkbet.Application\obj\Debug\netcoreapp2.2\Darkbet.Application.csproj.CopyComplete

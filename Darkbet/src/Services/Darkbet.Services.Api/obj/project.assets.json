@@ -4724,11 +4724,37 @@
       "Darkbet.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Darkbet.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Darkbet.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/Darkbet.Application.dll": {}
+        }
+      },
+      "Darkbet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Darkbet.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Darkbet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Darkbet.Domain.dll": {}
+        }
+      },
+      "Darkbet.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Darkbet.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Darkbet.Domain.Core.dll": {}
         }
       }
     }
@@ -12999,6 +13025,16 @@
       "type": "project",
       "path": "../../Applciation/Darkbet.Application/Darkbet.Application.csproj",
       "msbuildProject": "../../Applciation/Darkbet.Application/Darkbet.Application.csproj"
+    },
+    "Darkbet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Darkbet.Domain/Darkbet.Domain.csproj",
+      "msbuildProject": "../../Domain/Darkbet.Domain/Darkbet.Domain.csproj"
+    },
+    "Darkbet.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Darkbet.Domain.Core/Darkbet.Domain.Core.csproj",
+      "msbuildProject": "../../Domain/Darkbet.Domain.Core/Darkbet.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -344,11 +344,33 @@
         }
       },
       "Darkbet.Application/1.0.0": {
+        "dependencies": {
+          "Darkbet.Domain": "1.0.0"
+        },
         "runtime": {
           "Darkbet.Application.dll": {}
         },
         "compile": {
           "Darkbet.Application.dll": {}
+        }
+      },
+      "Darkbet.Domain/1.0.0": {
+        "dependencies": {
+          "Darkbet.Domain.Core": "1.0.0"
+        },
+        "runtime": {
+          "Darkbet.Domain.dll": {}
+        },
+        "compile": {
+          "Darkbet.Domain.dll": {}
+        }
+      },
+      "Darkbet.Domain.Core/1.0.0": {
+        "runtime": {
+          "Darkbet.Domain.Core.dll": {}
+        },
+        "compile": {
+          "Darkbet.Domain.Core.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3680,6 +3702,16 @@
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
     },
     "Darkbet.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Darkbet.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Darkbet.Domain.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

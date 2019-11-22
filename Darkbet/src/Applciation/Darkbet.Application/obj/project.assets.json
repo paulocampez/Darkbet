@@ -207,6 +207,29 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "Darkbet.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Darkbet.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Darkbet.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Darkbet.Domain.dll": {}
+        }
+      },
+      "Darkbet.Domain.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Darkbet.Domain.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Darkbet.Domain.Core.dll": {}
+        }
       }
     }
   },
@@ -678,10 +701,21 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "Darkbet.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Darkbet.Domain/Darkbet.Domain.csproj",
+      "msbuildProject": "../../Domain/Darkbet.Domain/Darkbet.Domain.csproj"
+    },
+    "Darkbet.Domain.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Domain/Darkbet.Domain.Core/Darkbet.Domain.Core.csproj",
+      "msbuildProject": "../../Domain/Darkbet.Domain.Core/Darkbet.Domain.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Darkbet.Domain >= 1.0.0",
       "Microsoft.NETCore.App >= 2.2.0"
     ]
   },
@@ -715,7 +749,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+              "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

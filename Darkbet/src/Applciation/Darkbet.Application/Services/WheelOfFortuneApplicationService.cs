@@ -15,7 +15,7 @@ namespace Darkbet.Application.Services
 
         public WheelOfFortuneViewModel Get()
         {
-            return new WheelOfFortuneViewModel() { Color = "Green", Id = new Guid(), Number = 3 };
+            return new WheelOfFortuneViewModel() { Color = Domain.Enums.WheelOfFortuneEnum.WheelOfFortuneColors.Green, Id = new Guid(), Number = 3 };
         }
     }
 }

@@ -17,3 +17,7 @@ C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\D
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.csproj.CopyComplete
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.dll
 C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Domain.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Domain.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb

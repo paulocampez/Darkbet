@@ -7,5 +7,11 @@ namespace Darkbet.Domain.Enums
 {
     public class WheelOfFortuneEnum
     {
+        public enum WheelOfFortuneColors
+        {
+            Green,
+            Red,
+            Black
+        }
     }
 }
