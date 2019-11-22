@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkbetConsoleApp", "DarkbetConsoleApp\DarkbetConsoleApp.csproj", "{F130DB5C-8E2B-4C8F-9B12-28A619BAA12A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkbetConsoleApp", "DarkbetConsoleApp\DarkbetConsoleApp.csproj", "{F130DB5C-8E2B-4C8F-9B12-28A619BAA12A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{E1A88E74-C9F5-4314-BDE7-082DB1CC9B9D}"
 EndProject
@@ -21,15 +21,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{C157ABE2-1409-42E1-AC2E-D7DA14CD655B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Tests", "src\Tests\Darkbet.Tests\Darkbet.Tests.csproj", "{68364296-46AE-4970-948A-23783011A80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Tests", "src\Tests\Darkbet.Tests\Darkbet.Tests.csproj", "{68364296-46AE-4970-948A-23783011A80E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Services.Api", "src\Services\Darkbet.Services.Api\Darkbet.Services.Api.csproj", "{D22489CC-2DE2-4CD1-BAB0-8F1B7049403F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Services.Api", "src\Services\Darkbet.Services.Api\Darkbet.Services.Api.csproj", "{D22489CC-2DE2-4CD1-BAB0-8F1B7049403F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Application", "src\Applciation\Darkbet.Application\Darkbet.Application.csproj", "{D359888E-B36F-4A7E-AC7F-BC295683CE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Application", "src\Applciation\Darkbet.Application\Darkbet.Application.csproj", "{D359888E-B36F-4A7E-AC7F-BC295683CE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Domain", "src\Domain\Darkbet.Domain\Darkbet.Domain.csproj", "{2BBE4062-3AF4-423D-833D-9E0DA99741BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Domain", "src\Domain\Darkbet.Domain\Darkbet.Domain.csproj", "{2BBE4062-3AF4-423D-833D-9E0DA99741BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Domain.Core", "src\Domain\Darkbet.Domain.Core\Darkbet.Domain.Core.csproj", "{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Domain.Core", "src\Domain\Darkbet.Domain.Core\Darkbet.Domain.Core.csproj", "{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Infra.Data", "src\Infra\Darkbet.Infra.Data\Darkbet.Infra.Data.csproj", "{E082AC55-79EF-451B-925B-4921203EE0C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,10 @@ Global
 		{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E082AC55-79EF-451B-925B-4921203EE0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E082AC55-79EF-451B-925B-4921203EE0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E082AC55-79EF-451B-925B-4921203EE0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E082AC55-79EF-451B-925B-4921203EE0C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{D359888E-B36F-4A7E-AC7F-BC295683CE01} = {4554692C-90E6-40D1-A983-E628F6B910A3}
 		{2BBE4062-3AF4-423D-833D-9E0DA99741BE} = {F1ED61B0-984E-464A-BFA1-E8CCB2B9F418}
 		{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1} = {F1ED61B0-984E-464A-BFA1-E8CCB2B9F418}
+		{E082AC55-79EF-451B-925B-4921203EE0C9} = {9FAB4C20-4F9F-4F83-B2BE-684165D1EE55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6101F23B-B749-47A6-9BD5-F8D0E9864E5F}
