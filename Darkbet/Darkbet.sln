@@ -27,7 +27,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Services.Api", "src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Application", "src\Applciation\Darkbet.Application\Darkbet.Application.csproj", "{D359888E-B36F-4A7E-AC7F-BC295683CE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Domain", "Domain\Darkbet.Domain\Darkbet.Domain.csproj", "{2BBE4062-3AF4-423D-833D-9E0DA99741BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Domain", "src\Domain\Darkbet.Domain\Darkbet.Domain.csproj", "{2BBE4062-3AF4-423D-833D-9E0DA99741BE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Domain.Core", "src\Domain\Darkbet.Domain.Core\Darkbet.Domain.Core.csproj", "{D32A76D4-954D-4EDE-B0A8-AB98E6FF50F1}"
 EndProject

@@ -1,4 +1,0 @@
-C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\Domain\Darkbet.Domain\obj\Debug\netcoreapp2.2\Darkbet.Domain.csprojAssemblyReference.cache
-C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\Domain\Darkbet.Domain\obj\Debug\netcoreapp2.2\Darkbet.Domain.csproj.CoreCompileInputs.cache
-C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\Domain\Darkbet.Domain\obj\Debug\netcoreapp2.2\Darkbet.Domain.AssemblyInfoInputs.cache
-C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\Domain\Darkbet.Domain\obj\Debug\netcoreapp2.2\Darkbet.Domain.AssemblyInfo.cs
