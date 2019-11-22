@@ -1,0 +1,11 @@
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\Darkbet.Tests.deps.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\Darkbet.Tests.runtimeconfig.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\Darkbet.Tests.runtimeconfig.dev.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.1\Darkbet.Tests.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.1\Darkbet.Tests.csprojAssemblyReference.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.1\Darkbet.Tests.csproj.CoreCompileInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.1\Darkbet.Tests.AssemblyInfoInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.1\Darkbet.Tests.AssemblyInfo.cs

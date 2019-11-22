@@ -1,0 +1,11 @@
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.deps.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.runtimeconfig.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.runtimeconfig.dev.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.csprojAssemblyReference.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.AssemblyInfoInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.AssemblyInfo.cs
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.pdb

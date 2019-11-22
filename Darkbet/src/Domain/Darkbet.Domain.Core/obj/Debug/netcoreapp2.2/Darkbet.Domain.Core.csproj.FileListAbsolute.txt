@@ -1,0 +1,8 @@
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.deps.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.AssemblyInfo.cs
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb

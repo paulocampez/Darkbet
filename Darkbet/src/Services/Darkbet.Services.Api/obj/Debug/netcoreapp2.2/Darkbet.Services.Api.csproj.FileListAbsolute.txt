@@ -1,0 +1,17 @@
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Services.Api.deps.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Services.Api.runtimeconfig.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Services.Api.runtimeconfig.dev.json
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Services.Api.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.csprojAssemblyReference.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.csproj.CoreCompileInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.RazorAssemblyInfo.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.RazorAssemblyInfo.cs
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.AssemblyInfoInputs.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.AssemblyInfo.cs
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.RazorTargetAssemblyInfo.cache
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Services.Api.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Application.dll
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\bin\Debug\netcoreapp2.2\Darkbet.Application.pdb
+C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Services\Darkbet.Services.Api\obj\Debug\netcoreapp2.2\Darkbet.Services.Api.csproj.CopyComplete
