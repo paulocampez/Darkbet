@@ -14,9 +14,9 @@ E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\D
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.runtimeconfig.dev.json
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.dll
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\bin\Debug\netcoreapp2.2\DarkbetConsoleApp.pdb
-E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.csprojAssemblyReference.cache
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.csproj.CoreCompileInputs.cache
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.AssemblyInfoInputs.cache
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.AssemblyInfo.cs
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.dll
 E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.pdb
+E:\projects\rest-api\Darkbet\Darkbet\DarkbetConsoleApp\obj\Debug\netcoreapp2.2\DarkbetConsoleApp.csprojAssemblyReference.cache

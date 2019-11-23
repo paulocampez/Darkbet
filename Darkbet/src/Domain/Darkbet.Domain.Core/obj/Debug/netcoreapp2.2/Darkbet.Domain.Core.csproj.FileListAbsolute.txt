@@ -9,9 +9,9 @@ C:\Users\paulo.campez\source\repos\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Cor
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.deps.json
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\bin\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb
-E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.csprojAssemblyReference.cache
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.csproj.CoreCompileInputs.cache
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.AssemblyInfoInputs.cache
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.AssemblyInfo.cs
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.dll
 E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.pdb
+E:\projects\rest-api\Darkbet\Darkbet\src\Domain\Darkbet.Domain.Core\obj\Debug\netcoreapp2.2\Darkbet.Domain.Core.csprojAssemblyReference.cache

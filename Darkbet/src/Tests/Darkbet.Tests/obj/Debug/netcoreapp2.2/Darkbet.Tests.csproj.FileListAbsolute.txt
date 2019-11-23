@@ -44,3 +44,9 @@ E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreap
 E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.csproj.CopyComplete
 E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.dll
 E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\obj\Debug\netcoreapp2.2\Darkbet.Tests.pdb
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.CrossCutting.Bus.dll
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.CrossCutting.IoC.dll
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.Data.dll
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.CrossCutting.Bus.pdb
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.CrossCutting.IoC.pdb
+E:\projects\rest-api\Darkbet\Darkbet\src\Tests\Darkbet.Tests\bin\Debug\netcoreapp2.2\Darkbet.Infra.Data.pdb

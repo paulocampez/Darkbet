@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Applciation\Darkbet.Application\Darkbet.Application.csproj" />
+    <ProjectReference Include="..\..\Domain\Darkbet.Domain\Darkbet.Domain.csproj" />
+    <ProjectReference Include="..\Darkbet.Infra.CrossCutting.Bus\Darkbet.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\Darkbet.Infra.Data\Darkbet.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

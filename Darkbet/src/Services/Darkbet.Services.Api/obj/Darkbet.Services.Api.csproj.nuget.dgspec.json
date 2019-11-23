@@ -186,6 +186,209 @@
         }
       }
     },
+    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
+        "projectName": "Darkbet.Infra.CrossCutting.Bus",
+        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
+        "projectName": "Darkbet.Infra.CrossCutting.IoC",
+        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
+              },
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+              },
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj"
+              },
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
+        "projectName": "Darkbet.Infra.Data",
+        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
+        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
     "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -216,6 +419,9 @@
             "projectReferences": {
               "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
                 "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
+              },
+              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -229,6 +435,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

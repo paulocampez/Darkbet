@@ -11,9 +11,9 @@ namespace Darkbet.Infra.Data.Context
 {
     public class DarkbetContext : DbContext
     {
-        private readonly IHostEnvironment _env;
+        private readonly IHostingEnvironment _env;
 
-        public DarkbetContext(IHostEnvironment env)
+        public DarkbetContext(IHostingEnvironment env)
         {
             _env = env;
         }
