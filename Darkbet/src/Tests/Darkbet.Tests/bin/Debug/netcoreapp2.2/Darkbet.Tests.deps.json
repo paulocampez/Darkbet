@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "8bb63b3435a368b62346db0fa4b77cbf1544c547"
+    "signature": "bf16b4f30fdc892127504eae8798f588b06c168c"
   },
   "compilationOptions": {},
   "targets": {
@@ -16,6 +16,14 @@
         },
         "runtime": {
           "Darkbet.Tests.dll": {}
+        }
+      },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
         }
       },
       "Microsoft.AspNetCore.Antiforgery/2.2.0": {
@@ -2548,13 +2556,17 @@
       },
       "Darkbet.Domain/1.0.0": {
         "dependencies": {
-          "Darkbet.Domain.Core": "1.0.0"
+          "Darkbet.Domain.Core": "1.0.0",
+          "MediatR": "7.0.0"
         },
         "runtime": {
           "Darkbet.Domain.dll": {}
         }
       },
       "Darkbet.Domain.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0"
+        },
         "runtime": {
           "Darkbet.Domain.Core.dll": {}
         }
@@ -2575,6 +2587,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/2.2.0": {
       "type": "package",

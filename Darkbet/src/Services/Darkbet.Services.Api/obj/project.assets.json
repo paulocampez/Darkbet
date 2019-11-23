@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.2": {
+      "AutoMapper/9.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
       "MediatR/7.0.0": {
         "type": "package",
         "compile": {
@@ -4734,6 +4747,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Darkbet.Domain": "1.0.0"
         },
         "compile": {
@@ -4773,6 +4787,23 @@
     }
   },
   "libraries": {
+    "AutoMapper/9.0.0": {
+      "sha512": "xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "type": "package",
+      "path": "automapper/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.9.0.0.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net461/AutoMapper.dll",
+        "lib/net461/AutoMapper.pdb",
+        "lib/net461/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.pdb",
+        "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
     "MediatR/7.0.0": {
       "sha512": "sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
       "type": "package",

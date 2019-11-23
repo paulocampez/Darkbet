@@ -1,4 +1,5 @@
-﻿using Darkbet.Application.Interfaces;
+﻿using AutoMapper;
+using Darkbet.Application.Interfaces;
 using Darkbet.Application.ViewModels;
 using Darkbet.Domain.Core.Bus;
 using System;
@@ -9,7 +10,16 @@ namespace Darkbet.Application.Services
 {
     public class WheelOfFortuneApplicationService : IWheelOfFortuneApplicationService
     {
+        private readonly IMapper _mapper;
         private readonly IBusHandler Bus;
+        //Adicionar repositorio
+
+        public WheelOfFortuneApplicationService(IBusHandler bus, IMapper mapper)
+        {
+            _mapper = mapper;
+            Bus = bus;
+        }
+
         public void Dispose()
         {
             throw new NotImplementedException();
@@ -17,7 +27,7 @@ namespace Darkbet.Application.Services
 
         public WheelOfFortuneViewModel Get()
         {
-            //Bus.SendCommand()
+            //_mapper.Map<WheelOfFortuneViewModel>(_repository.Get());
             return new WheelOfFortuneViewModel() { Color = Domain.Enums.WheelOfFortuneEnum.WheelOfFortuneColors.Green, Id = new Guid(), Number = 3 };
         }
     }
