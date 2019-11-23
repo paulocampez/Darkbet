@@ -15,8 +15,10 @@ namespace Darkbet.Domain.CommandHandlers
     public class WheelOfFortuneCommandHandler : CommandHandler, IRequestHandler<RegisterNewRoundCommand, bool>
     {
         private readonly IBusHandler Bus;
-        public WheelOfFortuneCommandHandler(IUnitOfWork uow, IBusHandler bus) : base(uow, bus)
+        private readonly IWheelOfFortuneRepository _repository;
+        public WheelOfFortuneCommandHandler(IWheelOfFortuneRepository repository, IUnitOfWork uow, IBusHandler bus) : base(uow, bus)
         {
+            _repository = repository;
             Bus = bus;
         }
         public Task<bool> Handle(RegisterNewRoundCommand request, CancellationToken cancellationToken)

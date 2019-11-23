@@ -3,6 +3,9 @@ using System;
 using Xunit;
 using Darkbet.Services.Api.Controllers;
 using Darkbet.Application.Services;
+using AutoMapper;
+using Darkbet.Domain.Core.Bus;
+using Darkbet.Domain.Interfaces;
 
 namespace Darkbet.Tests
 {
@@ -10,10 +13,13 @@ namespace Darkbet.Tests
     {
         WheelOfFortuneController _controller;
         WheelOfFortuneApplicationService _service;
+        private readonly IMapper _mapper;
+        private readonly IBusHandler _bus;
+        private readonly IWheelOfFortuneRepository _repository;
         //construtor
         public WheelOfFortuneTest()
         {
-            _service = new WheelOfFortuneApplicationService();
+            _service = new WheelOfFortuneApplicationService(_repository, _bus, _mapper);
             _controller = new WheelOfFortuneController(_service);
         }
 

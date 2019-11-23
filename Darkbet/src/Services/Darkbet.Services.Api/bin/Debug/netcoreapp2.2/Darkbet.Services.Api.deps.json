@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "32372025827a6905b9be4c39ca534552f222aceb"
+    "signature": "d9a8f66af3c3eb7009af436aac4da9d6954a5996"
   },
   "compilationOptions": {
     "defines": [
@@ -35,6 +35,32 @@
         },
         "compile": {
           "Darkbet.Services.Api.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/AutoMapper.dll": {}
+        }
+      },
+      "MediatR/7.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
         }
       },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
@@ -345,6 +371,7 @@
       },
       "Darkbet.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Darkbet.Domain": "1.0.0"
         },
         "runtime": {
@@ -356,7 +383,8 @@
       },
       "Darkbet.Domain/1.0.0": {
         "dependencies": {
-          "Darkbet.Domain.Core": "1.0.0"
+          "Darkbet.Domain.Core": "1.0.0",
+          "MediatR": "7.0.0"
         },
         "runtime": {
           "Darkbet.Domain.dll": {}
@@ -366,6 +394,9 @@
         }
       },
       "Darkbet.Domain.Core/1.0.0": {
+        "dependencies": {
+          "MediatR": "7.0.0"
+        },
         "runtime": {
           "Darkbet.Domain.Core.dll": {}
         },
@@ -3574,6 +3605,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
+    },
+    "MediatR/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgfHxkBsmMlHOD564SnLqTvSbAuGlFiZfc6ybxBSI1wYV/2u+Y5TXtFoIhCISFg5/s/6aMvB338QC2JseHsjTA==",
+      "path": "mediatr/7.0.0",
+      "hashPath": "mediatr.7.0.0.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/2.8.0": {
       "type": "package",

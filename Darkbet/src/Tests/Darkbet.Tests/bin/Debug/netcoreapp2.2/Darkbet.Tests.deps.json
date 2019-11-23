@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "bf16b4f30fdc892127504eae8798f588b06c168c"
+    "signature": "ff0c96642961a5fb4c91e1ac6d86770d7f368b24"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Darkbet.Tests/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Darkbet.Services.Api": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.NET.Test.Sdk": "15.9.0",
@@ -16,6 +17,18 @@
         },
         "runtime": {
           "Darkbet.Tests.dll": {}
+        }
+      },
+      "AutoMapper/9.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.5.0",
+          "System.Reflection.Emit": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AutoMapper.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
         }
       },
       "MediatR/7.0.0": {
@@ -2548,6 +2561,7 @@
       },
       "Darkbet.Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "9.0.0",
           "Darkbet.Domain": "1.0.0"
         },
         "runtime": {
@@ -2587,6 +2601,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xCqvoxT4HIrNY/xlXG9W+BA/awdrhWvMTKTK/igkGSRbhOhpl3Q8O8Gxlhzjc9JsYqE7sS6AxgyuUUvZ6R5/Bw==",
+      "path": "automapper/9.0.0",
+      "hashPath": "automapper.9.0.0.nupkg.sha512"
     },
     "MediatR/7.0.0": {
       "type": "package",
