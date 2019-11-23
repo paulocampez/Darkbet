@@ -16,7 +16,7 @@ namespace Darkbet.Domain.Models
         }
 
         //EF
-        protected WheelOfFortune() { }
+        //protected WheelOfFortune() { }
         public int Number { get; set; }
         public WheelOfFortuneColors Color { get; set; }
     }
