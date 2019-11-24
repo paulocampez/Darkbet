@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MediatR;
 using Darkbet.Infra.CrossCutting.IoC;
+using AutoMapper;
 
 namespace Darkbet.Services.Api
 {
@@ -27,9 +28,10 @@ namespace Darkbet.Services.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMediatR(typeof(Startup));
+            services.AddAutoMapper(typeof(Startup));
             RegisterServices(services);
         }
 

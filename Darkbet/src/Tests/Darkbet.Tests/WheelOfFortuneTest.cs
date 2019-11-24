@@ -21,10 +21,10 @@ namespace Darkbet.Tests
     public class WheelOfFortuneTest
     {
         WheelOfFortuneController _controller;
-        WheelOfFortuneApplicationService _service;
-        private readonly IMapper _mapper;
-        private readonly IBusHandler _bus;
-        private readonly IWheelOfFortuneRepository _repository;
+        //WheelOfFortuneApplicationService _service;
+        //private readonly IMapper _mapper;
+        //private readonly IBusHandler _bus;
+        //private readonly IWheelOfFortuneRepository _repository;
   
         //construtor
         public WheelOfFortuneTest()
@@ -32,18 +32,15 @@ namespace Darkbet.Tests
             var fakeMediator = new Mock<IMediator>();
             var fakedResult = new TestResult(new TestCase());
             var mediator = new InMemoryBus(fakeMediator.Object);
-            var test = new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black);
-            var test2 = new WheelOfFortuneViewModel();
+            var wheelOFFortuneModel = new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black);
+            var wheelOFFortuneVM = new WheelOfFortuneViewModel();
             var mockRepo = new Mock<IWheelOfFortuneRepository>();
-            mockRepo.Setup(repo => repo.Get()).Returns(Task.FromResult(GetTestWheelOfFortune()).Result);
-
             var mapperMock = new Mock<IMapper>();
-            mapperMock.Setup(m => m.Map<WheelOfFortune, WheelOfFortuneViewModel>(test)).Returns(test2);
 
+            mockRepo.Setup(repo => repo.Get()).Returns(Task.FromResult(GetTestWheelOfFortune()).Result);
+            mapperMock.Setup(m => m.Map<WheelOfFortune, WheelOfFortuneViewModel>(wheelOFFortuneModel)).Returns(wheelOFFortuneVM);
 
             var service = new WheelOfFortuneApplicationService(mockRepo.Object, mediator, mapperMock.Object);
-            //var controller = new WheelOfFortuneController();
-            _service = new WheelOfFortuneApplicationService(_repository, _bus, _mapper);
             _controller = new WheelOfFortuneController(service);
         }
 
@@ -58,9 +55,6 @@ namespace Darkbet.Tests
 
         private WheelOfFortune GetTestWheelOfFortune()
         {
-            //var lstWheelOfFortune = new List<WheelOfFortune>();
-            //lstWheelOfFortune.Add(new WheelOfFortune(Guid.NewGuid(), 1, WheelOfFortuneColors.Green));
-            //lstWheelOfFortune.Add();
             return new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black);
         }
     }
