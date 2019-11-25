@@ -1,39 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj": {}
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj": {}
   },
   "projects": {
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj",
         "projectName": "Darkbet.Application",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
               }
             }
           }
@@ -66,29 +65,28 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
         "projectName": "Darkbet.Domain.Core",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -124,36 +122,35 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj",
         "projectName": "Darkbet.Domain",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj"
               }
             }
           }
@@ -186,36 +183,35 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
         "projectName": "Darkbet.Infra.CrossCutting.Bus",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain.Core\\Darkbet.Domain.Core.csproj"
               }
             }
           }
@@ -244,45 +240,44 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
         "projectName": "Darkbet.Infra.CrossCutting.IoC",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
               },
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
               },
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.Bus\\Darkbet.Infra.CrossCutting.Bus.csproj"
               },
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj"
               }
             }
           }
@@ -311,36 +306,35 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
         "projectName": "Darkbet.Infra.Data",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\Darkbet.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Domain\\Darkbet.Domain\\Darkbet.Domain.csproj"
               }
             }
           }
@@ -389,39 +383,38 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj",
         "projectName": "Darkbet.Services.Api",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Applciation\\Darkbet.Application\\Darkbet.Application.csproj"
               },
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Infra\\Darkbet.Infra.CrossCutting.IoC\\Darkbet.Infra.CrossCutting.IoC.csproj"
               }
             }
           }
@@ -435,6 +428,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[7.0.0, )"
@@ -469,36 +466,35 @@
         }
       }
     },
-    "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj": {
+    "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj",
         "projectName": "Darkbet.Tests",
-        "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj",
-        "packagesPath": "C:\\Users\\PauloCampez\\.nuget\\packages\\",
-        "outputPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\obj\\",
+        "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\Darkbet.Tests.csproj",
+        "packagesPath": "C:\\Users\\paulo.campez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Tests\\Darkbet.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\ProgramData\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\PauloCampez\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\paulo.campez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.midassolutions.com.br:81/nuget/metaora": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj": {
-                "projectPath": "E:\\projects\\rest-api\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj"
+              "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj": {
+                "projectPath": "C:\\Users\\paulo.campez\\source\\repos\\Darkbet\\Darkbet\\src\\Services\\Darkbet.Services.Api\\Darkbet.Services.Api.csproj"
               }
             }
           }
