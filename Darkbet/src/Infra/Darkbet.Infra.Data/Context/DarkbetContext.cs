@@ -19,6 +19,7 @@ namespace Darkbet.Infra.Data.Context
         }
 
         public DbSet<WheelOfFortune> wheelOfFortunes { get; set; }
+        public DbSet<Dice> dices { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new WheelOfFortuneMap());

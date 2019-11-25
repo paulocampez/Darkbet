@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Darkbet.Application.Interfaces;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Darkbet.Services.Api.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class DiceController : ControllerBase
+    {
+        private readonly IDiceApplicationService _diceApplicationService;
+        public DiceController(IDiceApplicationService wheelOfFortuneApplicationService)
+        {
+            _diceApplicationService = wheelOfFortuneApplicationService;
+        }
+
+        // GET: api/Dice
+        [HttpGet]
+        public IActionResult Roll()
+        {
+            return Ok(_diceApplicationService.Roll());
+        }
+
+    }
+}
