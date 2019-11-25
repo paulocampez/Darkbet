@@ -29,15 +29,11 @@ namespace Darkbet.Application.Services
             GC.SuppressFinalize(this);
         }
 
-        public WheelOfFortuneViewModel GenerateNewRoll()
+        public void GenerateNewRoll()
         {
-            var wheelFortuneViewModel = new WheelOfFortuneViewModel() { Color = Domain.Enums.WheelOfFortuneEnum.WheelOfFortuneColors.Black, Id = Guid.NewGuid(), Number = 3 };
+            var wheelFortuneViewModel = new WheelOfFortuneViewModel();
             var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
             Bus.SendCommand(registerCommand);
-
-
-            return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetById(wheelFortuneViewModel.Id));
-            // 
         }
 
         public WheelOfFortuneViewModel Get()
@@ -59,6 +55,13 @@ namespace Darkbet.Application.Services
             //var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
             //Bus.SendCommand(registerCommand);
             return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetById(id));
+        }
+
+        public WheelOfFortuneViewModel GetLast()
+        {
+            //var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
+            //Bus.SendCommand(registerCommand);
+            return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetAll());
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Darkbet.Application.AutoMapper
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<WheelOfFortuneViewModel, RegisterNewRoundCommand>()
-                .ConstructUsing(c => new RegisterNewRoundCommand(c.Number, c.Color));
+                .ConstructUsing(c => new RegisterNewRoundCommand(c.Number, c.Color, c.Date));
         }
     }
 }

@@ -11,5 +11,7 @@ namespace Darkbet.Domain.Commands
         public Guid Id { get; set; }
         public int Number { get; set; }
         public WheelOfFortuneColors Color { get; set; }
+
+        public DateTime Date { get; set; }
     }
 }

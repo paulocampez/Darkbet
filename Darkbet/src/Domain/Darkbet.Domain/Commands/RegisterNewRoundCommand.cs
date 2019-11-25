@@ -8,10 +8,11 @@ namespace Darkbet.Domain.Commands
 {
     public class RegisterNewRoundCommand : WheelOfFortuneCommand
     {
-        public RegisterNewRoundCommand(int number, WheelOfFortuneColors color)
+        public RegisterNewRoundCommand(int number, WheelOfFortuneColors color, DateTime date)
         {
             Number = number;
             Color = color;
+            Date = date;
         }
 
     }

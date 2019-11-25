@@ -41,5 +41,9 @@ namespace Darkbet.Infra.Data.Repository
         {
             return DbSet.Find(id);
         }
+        public TEntity GetLast()
+        {
+            return DbSet.Last();
+        }
     }
 }

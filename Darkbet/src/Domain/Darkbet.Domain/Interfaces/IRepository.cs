@@ -11,5 +11,6 @@ namespace Darkbet.Domain.Interfaces
         TEntity GetById(Guid id);
         void Add(TEntity obj);
         TEntity Get();
+        TEntity GetLast();
     }
 }

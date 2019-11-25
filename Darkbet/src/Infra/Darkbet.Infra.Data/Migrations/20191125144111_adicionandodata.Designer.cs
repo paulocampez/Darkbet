@@ -4,14 +4,16 @@ using Darkbet.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Darkbet.Infra.Data.Migrations
 {
     [DbContext(typeof(DarkbetContext))]
-    partial class DarkbetContextModelSnapshot : ModelSnapshot
+    [Migration("20191125144111_adicionandodata")]
+    partial class adicionandodata
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

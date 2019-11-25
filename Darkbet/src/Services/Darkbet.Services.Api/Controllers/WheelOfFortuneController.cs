@@ -29,7 +29,7 @@ namespace Darkbet.Services.Api.Controllers
         public IActionResult GenerateNewRoll()
         {
             _wheelOfFortuneApplicationService.GenerateNewRoll();
-            return Ok(_wheelOfFortuneApplicationService.GetAll());
+            return Ok(_wheelOfFortuneApplicationService.GetAll().OrderByDescending(p=>p.Date));
         }
         //[HttpGet]
         //public IActionResult GetRandom()

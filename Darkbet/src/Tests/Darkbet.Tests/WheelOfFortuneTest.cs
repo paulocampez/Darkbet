@@ -32,7 +32,7 @@ namespace Darkbet.Tests
             var fakeMediator = new Mock<IMediator>();
             var fakedResult = new TestResult(new TestCase());
             var mediator = new InMemoryBus(fakeMediator.Object);
-            var wheelOFFortuneModel = new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black);
+            var wheelOFFortuneModel = new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black, DateTime.Now);
             var wheelOFFortuneVM = new WheelOfFortuneViewModel();
             var mockRepo = new Mock<IWheelOfFortuneRepository>();
             var mapperMock = new Mock<IMapper>();
@@ -55,7 +55,7 @@ namespace Darkbet.Tests
 
         private WheelOfFortune GetTestWheelOfFortune()
         {
-            return new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black);
+            return new WheelOfFortune(Guid.NewGuid(), 3, WheelOfFortuneColors.Black, DateTime.Now);
         }
     }
 }
