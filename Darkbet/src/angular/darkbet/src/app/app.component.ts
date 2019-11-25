@@ -24,17 +24,17 @@ export class AppComponent {
   //10, 9, 6 ,2
   prizes = [
     "Grand prize",
-    "demo 2",
-    "demo 3",
-    "demo 4",
-    "demo 5",
-    "demo 6",
-    "demo 7",
-    "demo 8",
-    "demo 9",
-    "demo 10",
-    "demo 11",
-    "demo 12"
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
   ];
   beforeSpinFn = function () {
     // alert("before");
