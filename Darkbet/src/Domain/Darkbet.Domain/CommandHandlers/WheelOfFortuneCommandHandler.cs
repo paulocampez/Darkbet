@@ -1,5 +1,6 @@
 ﻿using Darkbet.Domain.Commands;
 using Darkbet.Domain.Core.Bus;
+using Darkbet.Domain.Enums;
 using Darkbet.Domain.Interfaces;
 using Darkbet.Domain.Models;
 using MediatR;
@@ -28,13 +29,27 @@ namespace Darkbet.Domain.CommandHandlers
             WheelOfFortuneColors randomColor = (WheelOfFortuneColors)values.GetValue(rnd.Next(values.Length));
 
             var wheelOfFortune = new WheelOfFortune(request.Id, request.Number, request.Color, request.Date);
-            wheelOfFortune.Number = rnd.Next(1, 101);
-            wheelOfFortune.Color = randomColor;
+            wheelOfFortune.Number = rnd.Next(1, 37);
+            wheelOfFortune.Color = GetColorByNumber(wheelOfFortune.Number);
             wheelOfFortune.Date = DateTime.Now;
             _repository.Add(wheelOfFortune);
 
             Commit();
             return Task.FromResult(true);
+        }
+
+        private WheelOfFortuneColors GetColorByNumber(int number)
+        {
+            List<int> green = new List<int> { 0 };
+            List<int> red = new List<int> { 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30, 32, 34, 36 };
+            List<int> black = new List<int> { 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35 };
+
+            if (green.Contains(number))
+                return WheelOfFortuneColors.Green;
+            if (red.Contains(number))
+                return WheelOfFortuneColors.Red;
+            else
+                return WheelOfFortuneColors.Black;
         }
     }
 }

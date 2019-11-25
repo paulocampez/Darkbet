@@ -33,9 +33,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Domain.Core", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Infra.Data", "src\Infra\Darkbet.Infra.Data\Darkbet.Infra.Data.csproj", "{E082AC55-79EF-451B-925B-4921203EE0C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Infra.CrossCutting.IoC", "src\Infra\Darkbet.Infra.CrossCutting.IoC\Darkbet.Infra.CrossCutting.IoC.csproj", "{4C4748D6-EBB1-433B-8EE6-0CFF93FAFF2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Infra.CrossCutting.IoC", "src\Infra\Darkbet.Infra.CrossCutting.IoC\Darkbet.Infra.CrossCutting.IoC.csproj", "{4C4748D6-EBB1-433B-8EE6-0CFF93FAFF2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Darkbet.Infra.CrossCutting.Bus", "src\Infra\Darkbet.Infra.CrossCutting.Bus\Darkbet.Infra.CrossCutting.Bus.csproj", "{38B52E44-D9F7-4791-A3DE-65C5EEDECF58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Darkbet.Infra.CrossCutting.Bus", "src\Infra\Darkbet.Infra.CrossCutting.Bus\Darkbet.Infra.CrossCutting.Bus.csproj", "{38B52E44-D9F7-4791-A3DE-65C5EEDECF58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{EF35A99A-4436-466F-AEE2-4A54F8A3A6F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "angular", "angular", "{1A9CD9D5-C307-4BC7-9111-387860EE92EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,7 @@ Global
 		{E082AC55-79EF-451B-925B-4921203EE0C9} = {9FAB4C20-4F9F-4F83-B2BE-684165D1EE55}
 		{4C4748D6-EBB1-433B-8EE6-0CFF93FAFF2D} = {9FAB4C20-4F9F-4F83-B2BE-684165D1EE55}
 		{38B52E44-D9F7-4791-A3DE-65C5EEDECF58} = {9FAB4C20-4F9F-4F83-B2BE-684165D1EE55}
+		{1A9CD9D5-C307-4BC7-9111-387860EE92EF} = {EF35A99A-4436-466F-AEE2-4A54F8A3A6F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6101F23B-B749-47A6-9BD5-F8D0E9864E5F}

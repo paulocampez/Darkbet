@@ -12,7 +12,7 @@ namespace Darkbet.Domain.Models
         {
             Id = id;
             Number = number;
-            Color = WheelOfFortuneColors.Green;
+            Color = color;
             Date = date;
         }
 

@@ -53,15 +53,11 @@ namespace Darkbet.Application.Services
         }
         public WheelOfFortuneViewModel GetById(Guid id)
         {
-            //var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
-            //Bus.SendCommand(registerCommand);
             return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetById(id));
         }
 
         public WheelOfFortuneViewModel GetLast()
         {
-            //var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
-            //Bus.SendCommand(registerCommand);
             return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetAll());
         }
     }
