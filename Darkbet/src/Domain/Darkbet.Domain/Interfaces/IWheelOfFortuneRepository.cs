@@ -7,6 +7,6 @@ namespace Darkbet.Domain.Interfaces
 {
     public interface IWheelOfFortuneRepository : IRepository<WheelOfFortune>
     {
-
+        
     }
 }

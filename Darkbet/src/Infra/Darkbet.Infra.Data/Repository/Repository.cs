@@ -36,5 +36,10 @@ namespace Darkbet.Infra.Data.Repository
         {
             DbSet.Add(obj);
         }
+
+        public TEntity GetById(Guid id)
+        {
+            return DbSet.Find(id);
+        }
     }
 }

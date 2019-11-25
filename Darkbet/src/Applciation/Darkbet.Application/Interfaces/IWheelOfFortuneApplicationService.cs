@@ -7,6 +7,9 @@ namespace Darkbet.Application.Interfaces
 {
     public interface IWheelOfFortuneApplicationService : IDisposable
     {
+        WheelOfFortuneViewModel GenerateNewRoll();
         WheelOfFortuneViewModel Get();
+        WheelOfFortuneViewModel GetById(Guid id);
+        IEnumerable<WheelOfFortuneViewModel> GetAll();
     }
 }
