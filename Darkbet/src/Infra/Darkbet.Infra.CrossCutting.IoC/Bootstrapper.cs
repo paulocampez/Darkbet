@@ -22,10 +22,13 @@ namespace Darkbet.Infra.CrossCutting.IoC
             service.AddScoped<IBusHandler, InMemoryBus>();
             // Application
             service.AddScoped<IWheelOfFortuneApplicationService, WheelOfFortuneApplicationService>();
+            service.AddScoped<IDiceApplicationService, DiceApplicationService>();
             // Domain 
             service.AddScoped<IRequestHandler<RegisterNewRoundCommand, bool>, WheelOfFortuneCommandHandler>();
+            service.AddScoped<IRequestHandler<RegisterNewRollCommand, bool>, DiceCommandHandler>();
             // Infra 
             service.AddScoped<IWheelOfFortuneRepository, WheelOfFortuneRepository>();
+            service.AddScoped<IDiceRepository, DiceRepository>();
             service.AddScoped<IUnitOfWork, UnitOfWork>();
             service.AddScoped<DarkbetContext>();
         }

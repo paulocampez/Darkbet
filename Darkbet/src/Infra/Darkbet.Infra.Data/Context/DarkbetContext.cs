@@ -23,7 +23,7 @@ namespace Darkbet.Infra.Data.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new WheelOfFortuneMap());
-
+            modelBuilder.ApplyConfiguration(new DiceMap());
             base.OnModelCreating(modelBuilder);
         }
 

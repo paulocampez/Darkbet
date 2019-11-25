@@ -12,6 +12,7 @@ namespace Darkbet.Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<WheelOfFortune, WheelOfFortuneViewModel>();
+            CreateMap<Dice, DiceViewModel>();
         }
     }
 }

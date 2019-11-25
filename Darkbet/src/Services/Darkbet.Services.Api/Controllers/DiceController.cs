@@ -13,13 +13,14 @@ namespace Darkbet.Services.Api.Controllers
     public class DiceController : ControllerBase
     {
         private readonly IDiceApplicationService _diceApplicationService;
-        public DiceController(IDiceApplicationService wheelOfFortuneApplicationService)
+        public DiceController(IDiceApplicationService diceApplicationService)
         {
-            _diceApplicationService = wheelOfFortuneApplicationService;
+            _diceApplicationService = diceApplicationService;
         }
 
         // GET: api/Dice
         [HttpGet]
+        [Route("Roll")]
         public IActionResult Roll()
         {
             return Ok(_diceApplicationService.Roll());

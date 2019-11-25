@@ -13,6 +13,8 @@ namespace Darkbet.Application.AutoMapper
         {
             CreateMap<WheelOfFortuneViewModel, RegisterNewRoundCommand>()
                 .ConstructUsing(c => new RegisterNewRoundCommand(c.Number, c.Color, c.Date));
+            CreateMap<DiceViewModel, RegisterNewRollCommand>()
+           .ConstructUsing(c => new RegisterNewRollCommand(c.Number, c.Date));
         }
     }
 }
