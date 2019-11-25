@@ -27,7 +27,7 @@ namespace Darkbet.Domain.CommandHandlers
             Array values = Enum.GetValues(typeof(WheelOfFortuneColors));
             WheelOfFortuneColors randomColor = (WheelOfFortuneColors)values.GetValue(rnd.Next(values.Length));
 
-            var wheelOfFortune = new WheelOfFortune(Guid.NewGuid(), request.Number, request.Color, request.Date);
+            var wheelOfFortune = new WheelOfFortune(request.Id, request.Number, request.Color, request.Date);
             wheelOfFortune.Number = rnd.Next(1, 101);
             wheelOfFortune.Color = randomColor;
             wheelOfFortune.Date = DateTime.Now;

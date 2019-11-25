@@ -28,8 +28,8 @@ namespace Darkbet.Services.Api.Controllers
         [Route("GenerateNewRoll")]
         public IActionResult GenerateNewRoll()
         {
-            _wheelOfFortuneApplicationService.GenerateNewRoll();
-            return Ok(_wheelOfFortuneApplicationService.GetAll().OrderByDescending(p=>p.Date));
+            var response = _wheelOfFortuneApplicationService.GenerateNewRoll();
+            return Ok(response);
         }
         //[HttpGet]
         //public IActionResult GetRandom()

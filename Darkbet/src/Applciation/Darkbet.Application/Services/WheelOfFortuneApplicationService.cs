@@ -29,11 +29,12 @@ namespace Darkbet.Application.Services
             GC.SuppressFinalize(this);
         }
 
-        public void GenerateNewRoll()
+        public WheelOfFortuneViewModel GenerateNewRoll()
         {
             var wheelFortuneViewModel = new WheelOfFortuneViewModel();
             var registerCommand = _mapper.Map<RegisterNewRoundCommand>(wheelFortuneViewModel);
             Bus.SendCommand(registerCommand);
+            return _mapper.Map<WheelOfFortuneViewModel>(_repository.GetById(wheelFortuneViewModel.Id));
         }
 
         public WheelOfFortuneViewModel Get()

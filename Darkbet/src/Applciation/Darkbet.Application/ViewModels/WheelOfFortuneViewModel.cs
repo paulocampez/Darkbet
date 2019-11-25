@@ -7,6 +7,10 @@ namespace Darkbet.Application.ViewModels
 {
     public class WheelOfFortuneViewModel
     {
+        public WheelOfFortuneViewModel()
+        {
+            Id = Guid.NewGuid();
+        }
         public Guid Id { get; set; }
         public WheelOfFortuneColors Color { get; set; }
         public int Number { get; set; }
