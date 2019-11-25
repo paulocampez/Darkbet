@@ -24,12 +24,17 @@ namespace Darkbet.Infra.Data.Repository
         }
         public void Dispose()
         {
-            throw new NotImplementedException();
+            GC.SuppressFinalize(this);
         }
 
         public TEntity Get()
         {
-            return DbSet.First();
+            return DbSet.FirstOrDefault();
+        }
+
+        public void Add(TEntity obj)
+        {
+            DbSet.Add(obj);
         }
     }
 }

@@ -31,6 +31,9 @@ namespace Darkbet.Domain.CommandHandlers
             wheelOfFortune.Number = rnd.Next(1, 101);
             wheelOfFortune.Color = randomColor;
 
+            _repository.Add(wheelOfFortune);
+
+            Commit();
             return Task.FromResult(true);
         }
     }

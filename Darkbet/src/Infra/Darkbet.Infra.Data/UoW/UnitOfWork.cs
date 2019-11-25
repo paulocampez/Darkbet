@@ -22,7 +22,7 @@ namespace Darkbet.Infra.Data.UoW
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            GC.SuppressFinalize(this);
         }
     }
 }

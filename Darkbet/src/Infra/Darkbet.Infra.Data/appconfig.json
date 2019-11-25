@@ -1,6 +1,6 @@
 {
   "ConnectionStrings": {
-    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=Darkbet;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "DefaultConnection": "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\paulo.campez\\Documents\\DarkBet.mdf;Integrated Security=True;Connect Timeout=30"
   },
   "Logging": {
     "IncludeScopes": false,

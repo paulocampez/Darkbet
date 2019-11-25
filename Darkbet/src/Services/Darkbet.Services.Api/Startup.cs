@@ -14,6 +14,8 @@ using MediatR;
 using Darkbet.Infra.CrossCutting.IoC;
 using AutoMapper;
 using Darkbet.Services.Api.Configurations;
+using Darkbet.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Darkbet.Services.Api
 {
@@ -29,6 +31,9 @@ namespace Darkbet.Services.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<DarkbetContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddAutoMapperSetup();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddMediatR(typeof(Startup));
